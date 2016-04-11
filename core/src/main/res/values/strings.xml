@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">core</string>
+    <string name="error_message_unknown">We are unable to complete your request right now, please try again later.</string>
+    <string name="error_message_network_unavailable">Looks like you are not connected to a network.</string>
+</resources>
