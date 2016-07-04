@@ -7,6 +7,10 @@ import static com.android.sdk.core.utils.DesignByContract.*;
 
 
 /**
+ * Wrapper for SharedPreferences.
+ * <p>
+ * To create a shared preference for your app, simply extend this class, provide a name for your shared pref make use of all wrapper methods to reade/write from SharedPrefs.
+ * <p>
  * Created by deepu on 3/13/16.
  */
 public abstract class BasePreferences {
