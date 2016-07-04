@@ -57,10 +57,9 @@ public final class Logger {
         }
     }
 
-    private static LogLevel currentLogLevel;
+    private static LogLevel currentLogLevel = LogLevel.ERROR;
 
     private Logger() {
-        currentLogLevel = LogLevel.ERROR;
     }
 
     public static void overrideLogLevel(LogLevel level) {
