@@ -1,1 +1,1 @@
-include ':test', ':core'
+include ':test', ':move-sdk'

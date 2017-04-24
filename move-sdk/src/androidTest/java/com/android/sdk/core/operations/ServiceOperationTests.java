@@ -62,6 +62,7 @@ public class ServiceOperationTests extends AndroidTestCase {
 
         @Override
         protected DataRequest getDataRequest(@NonNull String path, @NonNull Map<String, String> headers, @NonNull Map<String, String> params) {
+            params.put("key", "value");
             return DataRequest.createSimpleDataRequest(SimpleDataRequestMethod.Get(), path, headers, params);
         }
 

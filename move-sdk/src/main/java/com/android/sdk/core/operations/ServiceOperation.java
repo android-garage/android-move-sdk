@@ -52,9 +52,7 @@ import static com.android.sdk.core.utils.DesignByContract.requireShouldOverRide;
 
 /**
  * Base operation for making a network call and getting the parsed response model object.
- * <p/>
  * Subclass this operation and override necessary methods to provide your service details.
- * <p/>
  * Created by deepu on 3/30/16.
  */
 public abstract class ServiceOperation<T> implements Operation {
