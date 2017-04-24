@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-archivesBaseName = "android-move-sdk"
+archivesBaseName = "move-sdk"
 
 ext {
     bintrayRepo = 'android'
@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/android-garage/android-move-sdk'
     gitUrl = 'https://github.com/android-garage/android-move-sdk.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.2'
 
     developerId = 'deepueg'
     developerName = 'Deepu Eswarath Ganapathiyadan'
